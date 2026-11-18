@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "anysphere.csharp",
+    "nromanov.dotrush",
+    "formulahendry.code-runner",
+    "ms-dotnettools.vscode-dotnet-runtime",
+    "editorconfig.editorconfig",
+    "github.vscode-pull-request-github",
+    "fernandoescolar.vscode-solution-explorer"
+  ]
+}

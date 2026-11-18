@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "EmployeeAccounting (WinForms)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/EmployeeAccounting/bin/Debug/net10.0-windows/EmployeeAccounting.dll",
+      "cwd": "${workspaceFolder}/EmployeeAccounting",
+      "console": "internalConsole"
+    },
+    {
+      "name": "HelloWorld",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-helloworld",
+      "program": "${workspaceFolder}/HelloWorld/bin/Debug/net10.0/HelloWorld.dll",
+      "cwd": "${workspaceFolder}/HelloWorld",
+      "console": "internalConsole"
+    }
+  ]
+}
