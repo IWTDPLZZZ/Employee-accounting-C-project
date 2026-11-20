@@ -1,4 +1,3 @@
-using System.Linq.Expressions;
 using EmployeeAccounting.Forms;
 
 namespace EmployeeAccounting;
@@ -9,6 +8,6 @@ static class Program
     static void Main()
     {
         ApplicationConfiguration.Initialize();
- //       Application.Run( MainForm());
+        System.Windows.Forms.Application.Run(new MainForm());
     }
 }

@@ -9,10 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Npgsql" Version="10.0.3" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\EmployeeAccounting.Domain\EmployeeAccounting.Domain.csproj" />
     <ProjectReference Include="..\EmployeeAccounting.Application\EmployeeAccounting.Application.csproj" />
     <ProjectReference Include="..\EmployeeAccounting.Infrastructure\EmployeeAccounting.Infrastructure.csproj" />

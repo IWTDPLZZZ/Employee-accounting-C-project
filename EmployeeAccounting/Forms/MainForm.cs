@@ -1,5 +1,9 @@
 namespace EmployeeAccounting.Forms;
 
-partial class MainForm
+public partial class MainForm : Form
 {
+    public MainForm()
+    {
+        InitializeComponent();
+    }
 }

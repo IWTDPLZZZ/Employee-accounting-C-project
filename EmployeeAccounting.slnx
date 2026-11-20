@@ -1,7 +1,6 @@
 <Solution>
+  <Project Path="EmployeeAccounting/EmployeeAccounting.csproj" />
   <Project Path="EmployeeAccounting.Application/EmployeeAccounting.Application.csproj" />
   <Project Path="EmployeeAccounting.Domain/EmployeeAccounting.Domain.csproj" />
   <Project Path="EmployeeAccounting.Infrastructure/EmployeeAccounting.Infrastructure.csproj" />
-  <Project Path="EmployeeAccounting/EmployeeAccounting.csproj" />
-  <Project Path="HelloWorld/HelloWorld.csproj" />
 </Solution>

@@ -3,11 +3,15 @@ namespace EmployeeAccounting.Domain.Entities;
 public class Department
 {
     public int Id { get; set; }
-    public string Name { get; set; }
-    Department(string name, int id)
+    public string Name { get; set; } = string.Empty;
+
+    public Department()
     {
-        Name = name;
-        Id = id;
     }
 
+    public Department(int id, string name)
+    {
+        Id = id;
+        Name = name;
+    }
 }

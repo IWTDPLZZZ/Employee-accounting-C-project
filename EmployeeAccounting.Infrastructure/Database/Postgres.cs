@@ -1,8 +1,8 @@
 using Npgsql;
 
-namespace EmployeeAccounting;
+namespace EmployeeAccounting.Infrastructure.Database;
 
-internal static class Postgres
+public static class Postgres
 {
     public static async Task<bool> CanConnectAsync(string connectionString, CancellationToken cancellationToken = default)
     {

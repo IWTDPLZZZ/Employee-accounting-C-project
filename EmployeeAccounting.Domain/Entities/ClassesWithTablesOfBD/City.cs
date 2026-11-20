@@ -1,14 +1,19 @@
 namespace EmployeeAccounting.Domain.Entities;
+
 public class City
 {
     public int Id { get; set; }
-    public string Name { get; set; }
-    public string Region {get ; set;}
+    public string Name { get; set; } = string.Empty;
+    public string Region { get; set; } = string.Empty;
 
-    City(string name, int id, string region)
+    public City()
     {
-        Name = name;
+    }
+
+    public City(int id, string name, string region)
+    {
         Id = id;
+        Name = name;
         Region = region;
     }
 }
