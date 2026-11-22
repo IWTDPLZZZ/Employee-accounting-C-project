@@ -1,5 +1,4 @@
 {
-  "dotnet.dotnetPath": "C:\\Program Files\\dotnet",
   "dotnet.defaultSolution": "EmployeeAccounting.slnx",
   "terminal.integrated.env.windows": {
     "PATH": "C:\\Program Files\\dotnet;${env:PATH}"
